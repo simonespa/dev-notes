@@ -1,5 +1,34 @@
 # Linux terminal
 
+- [Convert from PNG to JPEG](#convert-from-png-to-jpeg)
+- [Listening to port](#listening-to-port)
+- [Kill a service listening on a specific port](#kill-a-service-listening-on-a-specific-port)
+- [Change to a nologin user](#change-to-a-nologin-user)
+- [.bashrc VS .bash_profile](#bashrc-vs-bash-profile)
+- [Redirection of stdout/stderr](#redirection-of-stdout-stderr)
+- [Get the last command's exit code](#get-the-last-command-s-exit-code)
+- [Get the target of a symlink](#get-the-target-of-a-symlink)
+- [Multiline in bash](#multiline-in-bash)
+  - [Execute multiple commands on the terminal](#execute-multiple-commands-on-the-terminal)
+  - [Pass a multiline string to a variable](#pass-a-multiline-string-to-a-variable)
+  - [Pass a multiline string to a file](#pass-a-multiline-string-to-a-file)
+  - [Pass a multiline string to a command/pipe](#pass-a-multiline-string-to-a-command-pipe)
+- [Linux filesystem](#linux-filesystem)
+  - [/bin](#-bin)
+  - [/sbin](#-sbin)
+  - [/usr/bin](#-usr-bin)
+  - [/user/sbin](#-user-sbin)
+  - [/usr/local/bin](#-usr-local-bin)
+  - [/usr/local/sbin](#-usr-local-sbin)
+  - [Where should my own script live?](#where-should-my-own-script-live-)
+- [Man](#man)
+- [Users & Groups](#users---groups)
+- [Other commands](#other-commands)
+- [References](#references)
+  - [Init Scripts](#init-scripts)
+  - [Linux Permissions and Sticky bit](#linux-permissions-and-sticky-bit)
+  - [SAR](#sar)
+
 ## Convert from PNG to JPEG
 
 To convert one file only
@@ -176,6 +205,7 @@ usermod -aG <GROUP_NAME>,[<GROUP_NAME>] <USER_NAME>
 ```
 
 ## Other commands
+
 - `logger`
 - `dirname`
 - `basename`
