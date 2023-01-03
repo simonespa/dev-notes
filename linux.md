@@ -216,6 +216,9 @@ usermod -aG <GROUP_NAME>,[<GROUP_NAME>] <USER_NAME>
 - `netstat`
 - `grep`
 - `awk`
+- `cat`
+- `tee`
+- `tail`
 
 ## References
 
